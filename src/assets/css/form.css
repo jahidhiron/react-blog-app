@@ -1,0 +1,64 @@
+.form-container {
+  display: flex;
+  width: 40%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: #eee;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.inner-container {
+  display: block;
+  align-items: center;
+  width: 70%;
+}
+
+.form-title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="select"],
+input[type="textarea"] {
+  font-size: 14px;
+}
+
+.button {
+  border: 1px solid #999;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ccc;
+}
+
+.error {
+  color: red;
+}

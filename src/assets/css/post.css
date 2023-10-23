@@ -1,0 +1,62 @@
+.flexbox-container {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.flexbox-container.wrap {
+  flex-wrap: wrap;
+}
+.post-card {
+  align-items: center;
+  width: 15%;
+  height: 10%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #eee;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.post-card:hover {
+  scale: 1.05;
+}
+
+.post-card:nth-child(5) {
+  margin-right: 0px;
+}
+
+.post-card:nth-child(10) {
+  margin-right: 0px;
+}
+
+.card-title {
+  margin-bottom: 15px !important;
+}
+
+.card-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.detail-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.post-title {
+  margin-bottom: 30px;
+}
+
+.post-category {
+  margin-bottom: 20px;
+}
+
+.post-desc {
+  margin-bottom: 30px;
+}
