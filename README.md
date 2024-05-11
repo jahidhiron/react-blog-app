@@ -1,41 +1,61 @@
-# Description
+# Nodejs Blog REST API
 
-This repository is used as teaching purpose on Udemy
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Installation, up and running
+## Description
 
-Launch the Terminal app and use bellow command to install, up and running
+This repository contains a straightforward React blog application with a RESTful API integration, designed specifically for educational purposes, particularly for teaching on Udemy. It serves as a practical example of how to integrate React with a backend API built using Node.js.
 
-## Clone repository
+## Table of Contents
 
-Run bellow command to clone this repository <br />
-`git clone git@github.com:jahidhiron/raect-blog-app.git .`
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technology](#technology)
+- [Decision](#decision)
+- [License](#license)
 
-## Server installation, up and running
+## Installation
 
-You may use npm or yarn. Like `yarn` and `yarn run dev` <br />
+Install MongoDb Database
 
-`npm install` <br />
-`npm run dev` <br />
-<br />
-<br />
+```bash
+git clone git@github.com:jahidhiron/raect-blog-app.git
+cd raect-blog-app
+npm install
+```
 
-# Documentation
+## Usage
 
-Here I have discussed about which technology I have used, and why used. <br />
+```bash
+npm start
+```
 
-## Client side technology
+## Features
 
-### Framework/Library and modules
+- Authentication and Authorization
+- Add, Update, Delete blog posts
+- Search and filter blogs with pagination
+- Sending email
+- Scalable and well-documented codebase
+
+
+## Technology
 
 1. I have used `react.js` to handle client side UI
-2. I have used `axios`. It is a promised-based HTTP client for JavaScript.
+2. Used `axios`. It is a promised-based HTTP client for JavaScript.
 3. For client side route management I have used `react-router-dom`
 4. `react-toastify` is used to show success/error message
 5. `react-bootstrap` is used to show modal
+
 
 ## Decision
 
 1. `Why react.js?: ` It provides state-of-the-art functionality and is an excellent choice for developers looking for an easy-to-use and highly productive JavaScript framework. Using React, you can build complex UI interactions that communicate with the server in record time with JavaScript-driven pages. It also provide `virtual DOM` which provides more performant.
 2. I have used pagination instead of loading all data at a time. Initially, it loads 10 items
 3. Authentication, authorization, user verify, recover password are added to this app
+
+
+## License
+
+This project is licensed under the MIT License.
